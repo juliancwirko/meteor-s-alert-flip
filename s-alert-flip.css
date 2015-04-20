@@ -6,29 +6,39 @@
 }
 
 .s-alert-effect-flip.s-alert-left-bottom,
-.s-alert-effect-flip.s-alert-right-bottom {
+.s-alert-effect-flip.s-alert-right-bottom,
+.s-alert-bottom-left.s-alert-effect-flip,
+.s-alert-bottom-right.s-alert-effect-flip,
+.s-alert-bottom.s-alert-effect-flip {
     -webkit-transform-origin: 50% 100%;
     transform-origin: 50% 100%;
 }
 .s-alert-effect-flip.s-alert-left-top,
-.s-alert-effect-flip.s-alert-right-top {
+.s-alert-effect-flip.s-alert-right-top,
+.s-alert-top-left.s-alert-effect-flip,
+.s-alert-top-right.s-alert-effect-flip,
+.s-alert-top.s-alert-effect-flip {
     -webkit-transform-origin: 50% 0;
     transform-origin: 50% 0;
 }
 
-.s-alert-effect-flip.s-alert-left-bottom {
+.s-alert-effect-flip.s-alert-left-bottom,
+.s-alert-bottom-left.s-alert-effect-flip {
     bottom: 0;
     left: 0;
 }
-.s-alert-effect-flip.s-alert-left-top {
+.s-alert-effect-flip.s-alert-left-top,
+.s-alert-top-left.s-alert-effect-flip {
     left: 0;
     top: 0;
 }
-.s-alert-effect-flip.s-alert-right-top {
+.s-alert-effect-flip.s-alert-right-top,
+.s-alert-top-right.s-alert-effect-flip {
     right: 0;
     top: 0;
 }
-.s-alert-effect-flip.s-alert-right-bottom {
+.s-alert-effect-flip.s-alert-right-bottom,
+.s-alert-bottom-right.s-alert-effect-flip  {
     right: 0;
     bottom: 0;
 }
@@ -46,7 +56,13 @@
 .s-alert-effect-flip.s-alert-right-bottom.s-alert-show,
 .s-alert-effect-flip.s-alert-left-bottom.s-alert-show,
 .s-alert-effect-flip.s-alert-right-bottom.s-alert-hide,
-.s-alert-effect-flip.s-alert-left-bottom.s-alert-hide {
+.s-alert-effect-flip.s-alert-left-bottom.s-alert-hide,
+.s-alert-bottom-right.s-alert-effect-flip.s-alert-show,
+.s-alert-bottom-left.s-alert-effect-flip.s-alert-show,
+.s-alert-bottom-right.s-alert-effect-flip.s-alert-hide,
+.s-alert-bottom-left.s-alert-effect-flip.s-alert-hide,
+.s-alert-bottom.s-alert-effect-flip.s-alert-hide,
+.s-alert-bottom.s-alert-effect-flip.s-alert-show {
     -webkit-animation-name: animFlipFrontBottom;
     animation-name: animFlipFrontBottom;
     -webkit-animation-duration: 0.3s;
@@ -54,7 +70,10 @@
 }
 
 .s-alert-effect-flip.s-alert-right-bottom.s-alert-hide,
-.s-alert-effect-flip.s-alert-left-bottom.s-alert-hide {
+.s-alert-effect-flip.s-alert-left-bottom.s-alert-hide,
+.s-alert-bottom-right.s-alert-effect-flip.s-alert-hide,
+.s-alert-bottom-left.s-alert-effect-flip.s-alert-hide,
+.s-alert-bottom.s-alert-effect-flip.s-alert-hide {
     -webkit-animation-name: animFlipFrontBottom;
     animation-name: animFlipFrontBottom;
 }
@@ -62,7 +81,13 @@
 .s-alert-effect-flip.s-alert-right-top.s-alert-show,
 .s-alert-effect-flip.s-alert-left-top.s-alert-show,
 .s-alert-effect-flip.s-alert-right-top.s-alert-hide,
-.s-alert-effect-flip.s-alert-left-top.s-alert-hide {
+.s-alert-effect-flip.s-alert-left-top.s-alert-hide,
+.s-alert-top-right.s-alert-effect-flip.s-alert-show,
+.s-alert-top-left.s-alert-effect-flip.s-alert-show,
+.s-alert-top-right.s-alert-effect-flip.s-alert-hide,
+.s-alert-top-left.s-alert-effect-flip.s-alert-hide,
+.s-alert-top.s-alert-effect-flip.s-alert-hide,
+.s-alert-top.s-alert-effect-flip.s-alert-show {
     -webkit-animation-name: animFlipFrontTop;
     animation-name: animFlipFrontTop;
     -webkit-animation-duration: 0.3s;
@@ -70,7 +95,10 @@
 }
 
 .s-alert-effect-flip.s-alert-right-top.s-alert-hide,
-.s-alert-effect-flip.s-alert-left-top.s-alert-hide {
+.s-alert-effect-flip.s-alert-left-top.s-alert-hide,
+.s-alert-top-right.s-alert-effect-flip.s-alert-hide,
+.s-alert-top-left.s-alert-effect-flip.s-alert-hide,
+.s-alert-top.s-alert-effect-flip.s-alert-hide {
     -webkit-animation-name: animFlipFrontTop;
     animation-name: animFlipFrontTop;
 }
