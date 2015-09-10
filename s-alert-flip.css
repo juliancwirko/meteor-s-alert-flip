@@ -18,23 +18,6 @@
     transform-origin: 50% 0;
 }
 
-.s-alert-bottom-left.s-alert-effect-flip {
-    bottom: 0;
-    left: 0;
-}
-.s-alert-top-left.s-alert-effect-flip {
-    left: 0;
-    top: 0;
-}
-.s-alert-top-right.s-alert-effect-flip {
-    right: 0;
-    top: 0;
-}
-.s-alert-bottom-right.s-alert-effect-flip  {
-    right: 0;
-    bottom: 0;
-}
-
 .s-alert-effect-flip .s-alert-close::before,
 .s-alert-effect-flip .s-alert-close::after {
     background: #fff;
